@@ -1,0 +1,72 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+config.local.*
+
+# Logs and test/tool caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local database files, backups, and exports
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.db
+*.dump
+*.bak
+database_backups/
+db_backups/
+
+# Private datasets and sensitive exports
+data/private/
+datasets/private/
+private_data/
+customer_exports/
+salary_exports/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Build/package output
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML caches and temporary training outputs
+.cache/
+huggingface_cache/
+runs/
+wandb/
+mlruns/
+checkpoints/
+
+# Keep ml_models/model.safetensors tracked if required for inference.
+# Check its size before pushing; GitHub blocks ordinary Git files >100 MB.

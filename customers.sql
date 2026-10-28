@@ -1,0 +1,6 @@
+CREATE TABLE customers(
+	cid SERIAL PRIMARY KEY,
+	name VARCHAR(100) NOT NULL,
+	mobile VARCHAR(15),
+	address VARCHAR(255),
+);
